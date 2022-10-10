@@ -27,9 +27,7 @@ function App() {
                  <Route path="addproduct" element={<AddUser/>}/>
               </Route>
           </Route>
-        
         </Routes>
-
       </BrowserRouter>
     </div>
   );

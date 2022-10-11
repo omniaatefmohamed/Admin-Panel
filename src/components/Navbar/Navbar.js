@@ -1,9 +1,11 @@
 const Navbar = () => {
     return (
-        <div>
-            Navbar
+        <div className="navbar d-flex justify-content-between">
+           <div>
+            <input type="text" placeholder="search" className="form-control"/>
+           </div>
         </div>
     )
 }
 
-export default Sidebar;
+export default Navbar;

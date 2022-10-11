@@ -1,15 +1,48 @@
+$red-color:#bb0b2c;
 .sidebar {
     flex: 1;
     min-height: 100vh;
+    border-right: 0.25px solid #e73546;
+    padding-right: 20px;
+    padding-left: 20px;
 
-    ul {
-        list-style: none;
-
-        li {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+    .logo {
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            color: $red-color;
+            text-align: center;
+        }
+    }
+    .title{
+        font-size: 18px;
+        font-weight:bold
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color:#7f7f7f;
+        margin-bottom: 20px;
+        font-size:16px;
+        display: flex;
+        .mui-icon{
+            margin-right:10px;
+            color:$red-color;
+        }
+    }
+    .color-option{
+        display: flex;
+        div{
+            width:40px;
+            height:30px;
+            cursor: pointer;
+        }
+        div:first-of-type{
+            background-color: #7f7f7f;
+            margin-right:20px;
+        }
+        div:last-of-type{
+            background-color: #000;
         }
     }
 }
